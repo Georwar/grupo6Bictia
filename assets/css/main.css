@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Alineamiento de elementos */
+    align-items: center;
+    /* Alineamiento del Contenido */
+    justify-content: space-between;
+    /*Estilos adicionales*/
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: darkslategrey; /*rgba(0, 128, 128, 0.247);*/
+    padding: 1em;
+}
+
+.flex-item {
+   padding: 0.5em;
+   background-color: gainsboro;
+   border: 1px solid;
+ }
+ 
+ .img-medium > img{
+   display: block;
+   width: 200px;
+ }
